@@ -25,7 +25,7 @@ if ($this->session->flashdata('sukses')) {
             <td><?php echo $i ?></td>
             <td><?php echo $sekolah->nama ?></td>
             <td><?php echo $sekolah->alamat ?><br>kec. <?php echo $sekolah->kecamatan ?> <?php echo $sekolah->kabupaten ?></td>
-            <td><?php echo $sekolah->kontak_person ?> (<?php echo $sekolah->jabatan ?>)<br><i class="fa fa-phone"></i> <?php echo $sekolah->telp ?></td>
+            <td><?php echo $sekolah->kontak_person ?> <span class="label label-info"><?php echo $sekolah->jabatan ?></span><br><a href="tel:<?php echo $sekolah->telp ?>"><span class="text-danger"><i class="fa fa-phone"></i> <?php echo $sekolah->telp ?></span></a></td>
             <td><?php echo $sekolah->jumlah_siswa ?> Siswa</td>
             <td>
                 <a href="<?php echo base_url('admin/sekolah/edit/').$sekolah->id_sekolah; ?>" class="btn btn-warning btn-xs"><i class="fa fa-edit"></i> Edit</a>
