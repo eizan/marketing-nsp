@@ -49,7 +49,7 @@ class User extends CI_Controller {
 		} else {
 			// jika tidak lanjut
 
-			/*// meproses foto
+			/* meproses foto
 			$config['upload_path']          = base_url('uploads/');
             $config['allowed_types']        = 'gif|jpg|png';
             $config['max_size']             = 100;
@@ -71,7 +71,7 @@ class User extends CI_Controller {
                     $this->load->view('upload_success', $data);
             }*/
 
-            
+
 			//menyimapan imputan ke variable $data
 			$data = array(	'nama' 			=> $this->input->post('nama'),
 							'email' 		=> $this->input->post('email'),

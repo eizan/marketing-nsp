@@ -11,6 +11,20 @@
                     <li><a href="<?php echo base_url('admin/sekolah') ?>">Data Sekolah</a></li>
                     <li><a href="<?php echo base_url('admin/sekolah/tambah') ?>">Tambah Sekolah</a></li>
                 </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-flag"></i> Presentasi<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li><a href="<?php echo base_url('admin/presentasi') ?>">Data Presentasi</a></li>
+                    <li><a href="<?php echo base_url('admin/presentasi/tambah') ?>">Tambah Presentasi</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-users"></i> Team<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li><a href="<?php echo base_url('admin/team') ?>">Data Team</a></li>
+                    <li><a href="<?php echo base_url('admin/team/tambah') ?>">Tambah Team</a></li>
+                </ul>
             </li>  
             <li>
                 <a href="#"><i class="fa fa-user"></i> User/Admin<span class="fa arrow"></span></a>
